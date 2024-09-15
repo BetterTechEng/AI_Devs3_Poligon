@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AiDevsApplication {
 
 	public static void main(String[] args) {
+//		System.setProperty("spring.devtools.restart.enabled", "true");
+//		System.setProperty("spring.devtools.restart.poll-interval", "1s");
+//		System.setProperty("spring.devtools.restart.quiet-period", "1s");
 		SpringApplication.run(AiDevsApplication.class, args);
 	}
 
